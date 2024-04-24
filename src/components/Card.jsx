@@ -14,7 +14,7 @@ export default function MovieCard({ result }) {
           alt="movie poster"
           width={500}
           height={300}
-          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
+          className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300 object-cover w-full h-[150px]"
         />
         <div className="p-2">
           {" "}
